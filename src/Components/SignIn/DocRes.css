@@ -1,0 +1,513 @@
+/* Custom CSS for SignIn component */
+
+/* Base styles */
+.DocRes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: #363636;
+    font-family: 'Inter', sans-serif;
+    width: 100%;
+    height: 100vh;
+   
+
+}
+.Rectangle1 {
+    display: flex;
+    flex-direction: row;
+    background-color: #f2e7d5;
+    border-radius: 31px;
+    height: 288px;
+    position: fixed;
+    width: 288px;
+    left: 1046px;
+    top: 636px;
+    bottom: -150px;
+    transform: rotate(72.08deg);
+}
+
+.Rectangle2 {
+    display: flex;
+    flex-direction: row;
+    background-color: #f2e7d5;
+    border-radius: 31px;
+    height: 288px;
+    position: fixed;
+    width: 288px;
+    left: -72.94px;
+    top: 297px;
+    transform: rotate(24.41deg);
+}
+
+.Rectangle3 {
+    display: flex;
+    flex-direction: row;
+    background-color: #f2e7d5;
+    border-radius: 31px;
+    height: 288px;
+    position: fixed;
+    width: 288px;
+    left: 437px;
+    top: -120px;
+    transform: rotate(20.85deg);
+}
+
+.TitleContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    margin-left: 220px;
+    height: 228px;
+    width: 520px;
+
+
+}
+
+.Title {
+    display: flex;
+    flex-direction: row;
+    font-size: 44px;
+    font-weight: bold;
+    text-align: center;
+    color: #363636;
+
+
+}
+
+
+.DocPage {
+    flex:row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    height: 460px;
+    width: 560px;
+    margin-left: 230px;
+
+}
+
+/* Common styles for the form elements */
+.Form {
+    display: flex;
+    flex-direction: column;
+    width: 560px;
+    height: 460px;
+    padding-left: 10px;
+   
+
+}
+
+.FormTitle {
+    font-size: 30px;
+    font-weight: bold;
+    color: #363636;
+    margin-bottom: 20px;
+}
+
+.FormInput {
+    outline: none;
+    padding: 0 5px;
+    width: 78%;
+    height: 52px;
+    border: 1px solid #dcdcdc;
+    border-radius: 7px;
+    background-color: #fff;
+
+}
+.PhoneN{
+    margin-top: 6px;
+    margin-bottom: 10px;
+}
+.DateP {
+    margin-bottom: 15px;
+}
+ .button-group {
+     display: flex;
+     justify-content: center;
+     
+ }
+
+.button1,.button1,.button2,.button3 {
+    margin-top: 18px;
+background-color:#6d9886;
+    border: 1px solid #929292;
+    color: 363636;
+    font-size: 15px;
+    width: 105px;
+    height: 40px;
+    border-radius: 10px;
+     font-family: Arial;
+     margin-right: 60px;
+     margin-bottom: 10px;
+     font-weight: lighter;
+     
+}
+.button1{
+    margin-left: -42px;
+}
+
+.button1.selected,
+.button2.selected,
+.button3.selected {
+    background-color: #9bd289;
+    color: #fff;
+}
+.button1:hover,
+.button2:hover,
+.button3:hover {
+    background-color: #6D988686;
+}
+
+.B3{
+    margin-top: 12px;
+    background: #6d9886;
+    color: #fff;
+    font-family:  Arial;
+   font-weight: bold;
+    margin-bottom: 7px;
+    width: 82%;
+margin-left: 10px;
+}
+
+.B3:hover {
+    background-color: green;
+}
+ 
+.error-message {
+    background-color: #89928e;
+    /* Background color for the error box */
+    color: white;
+    /* Text color */
+    font-size: 15px;
+    font-weight: semi-bold;
+    /* Make the text bold */
+    padding: 10px;
+    /* Add padding to create a box-like appearance */
+    border-radius: 7px;
+    /* Add rounded corners */
+    margin-top: 6px;
+    /* Increase the top margin for spacing */
+    width: 80%;
+    /* Reduce the maximum width */
+}
+
+@media only screen and (max-width: 1199px) {
+    .DocRes {
+        flex-direction: row;
+    }
+
+    .DocPage {
+        margin-left: 30px;
+        width: 80%;
+        height: auto;
+        margin-right: -120px;
+
+    }
+
+    .Form2 {
+        height: auto;
+        width: 80%;
+
+    }
+
+    .FormInput2 {
+        height: 45px;
+
+    }
+}
+
+.button-group {
+    display: flex;
+    flex: row;
+    justify-content: center;
+
+}
+
+@media only screen and (max-width: 990px) {
+
+
+
+    .DocRes {
+        flex-direction: row;
+    }
+
+    .TitleContainer2 {
+        flex-direction: column;
+        align-items: center;
+        margin-right: 110px;
+        height: 40px;
+    }
+
+    .Title2 {
+        align-self: center;
+        font-size: 40px;
+    }
+
+    .DocPage {
+        margin-left: 2px;
+        width: 95%;
+        margin-right: 190px;
+        height: auto;
+        justify-content: center;
+
+        align-items: center;
+
+    }
+
+    .Form2 {
+        height: auto;
+        width: 95%;
+
+    }
+
+    .FormInput2 {
+        height: 45px;
+        width: 92%;
+    }
+
+    .button1,
+    .button2,
+    .button3 {
+        margin-top: 7px;
+        width: 100px;
+        height: 45px;
+        margin-right: 10px;
+
+    }
+
+    .B3 {
+        width: 95%;
+        margin-left: 10px;
+
+    }
+
+    .SignUpPrompt2 {
+        margin-right: 20px;
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 786px) {
+    .DocRes {
+        flex-direction: row;
+    }
+
+    .TitleContainer2 {
+        flex-direction: column;
+        align-items: center;
+        margin-right: 70px;
+        height: 40px;
+    }
+
+    .Title2 {
+        align-self: center;
+        font-size: 40px;
+    }
+
+    .DocPage {
+        width: 90%;
+        margin: 0 auto;
+        margin-right: 60px;
+        justify-content: center;
+        align-items: center;
+        margin-left: 90px;
+    }
+
+    .Form2 {
+        height: auto;
+        width: 90%;
+
+    }
+
+    .FormInput2 {
+        height: 45px;
+        width: 90%;
+        margin-bottom: 6px;
+        margin-right: 60px;
+
+    }
+
+    .button-group {
+        display: flex;
+        flex: row;
+        justify-content: center;
+        margin-right: 70px;
+    }
+
+    .button1,
+    .button2,
+    .button3 {
+        margin-top: 15px;
+        width: 90px;
+        height: 45px;
+        margin: 15px -2px 15px 90px;
+    }
+
+    .button1 {
+        margin-left: 10px;
+    }
+
+    .button3 {
+        margin-right: -22px;
+    }
+
+    .B3 {
+        width: 90%;
+        margin-left: 2px;
+    }
+
+    .SignUpPrompt2 {
+        margin-right: 45px;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 655px) {
+    .DocRes {
+        flex-direction: column
+    }
+
+    .TitleContainer2 {
+        flex-direction: column;
+        align-items: center;
+        margin-right: 150px;
+
+
+    }
+
+    .Title2 {
+        align-self: center;
+        font-size: 40px;
+    }
+
+    .DocPage {
+        width: 80%;
+        margin-left: 11%;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        margin-right: 280px;
+        margin-top: 100px;
+    }
+
+    .Form2 {
+        height: auto;
+        width: 90%;
+    }
+
+    .FormTitle2 {
+        margin-left: 120px;
+    }
+
+    .TextP {
+        margin-left: 120px;
+    }
+
+    .FormInput2 {
+        height: 45px;
+        width: 100%;
+        margin-bottom: 6px;
+        margin-left: 120px;
+
+    }
+
+    .button-group {
+        display: flex;
+        flex: row;
+        justify-content: center;
+        margin-right: -100px;
+
+    }
+
+    .button1,
+    .button2,
+    .button3 {
+        margin-top: 15px;
+        width: 90px;
+        height: 45px;
+        margin: 15px -75px 15px 115px;
+    }
+
+    .button3 {
+        margin-right: -10px;
+    }
+
+    .B3 {
+        width: 95%;
+        margin-left: 120px;
+    }
+
+    .SignUpPrompt2 {
+        margin-left: 100px;
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 384px) {
+    .TitleContainer2 {
+        flex-direction: column;
+        align-items: center;
+        margin-right: 15px;
+        height: 20px;
+    }
+
+    .DocPage {
+        width: 80%;
+        margin-left: 11%;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        margin-right: 290px;
+    }
+
+    .Form2 {
+        height: auto;
+        width: 80%;
+    }
+
+    .FormTitle2 {
+        margin-left: 120px;
+
+    }
+
+    .TextP {
+        margin-left: 120px;
+
+    }
+
+    .FormInput2 {
+        height: 45px;
+        width: 100%;
+        margin-bottom: 6px;
+        margin-left: 120px;
+
+    }
+
+    .button1,
+    .button2,
+    .button3 {
+        margin-top: 15px;
+
+        width: 65px;
+        height: 45px;
+        margin: 15px -109px 15px 116px;
+    }
+
+    .B3 {
+        width: 100%;
+        margin-left: 120px;
+    }
+
+    .SignUpPrompt2 {
+        margin-left: 120px;
+        width: 100%;
+    }
+
+}

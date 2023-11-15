@@ -1,0 +1,73 @@
+.RectangleD{
+    display: flex;
+        flex-direction: row;
+        background-color: #f2e7d5;
+        border-radius: 31px;
+        height: 288px;
+        position: fixed;
+        width: 288px;
+        left: 1046px;
+        top: 657px;
+      margin-bottom: -160px;
+        transform: rotate(72.08deg);
+}
+.FormTitleDoc{
+    font-size: 35px;
+        font-weight: bold;
+        color: #363636;
+        margin-left: 20px;
+        margin-bottom: 10px;
+
+}
+
+.DocPage3{
+        flex: row;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: -10px;
+            height: 410px;
+            width: 560px;
+            margin-left: 230px;
+           justify-content: center;
+}
+
+
+.button-group {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.button4,
+.button5 {
+    margin-top: 12px;
+    background-color:#6D9886;
+    border: 1px solid grey;
+    color: white;
+    font-size:16px;
+    width: 170px;
+    height: 40px;
+    border-radius: 10px;
+    font-family: Arial;
+    margin-bottom: 10px;
+    margin-right: 95px;
+    font-weight: bold;
+
+}
+
+
+
+.button4:hover,
+.button5:hover {
+    background-color: green;
+}
+.DocFace img {
+    border-radius: 50%;
+   margin-left: 125px;
+   width: 155px;
+    height: 150px;
+margin-bottom: 17px;
+    object-fit: cover;
+}

@@ -1,0 +1,39 @@
+.Welcome p {
+    font-size: 2rem;
+}
+
+@media (max-width: 1200px) {
+    .blah {
+        font-size: 3rem;
+    }
+
+    .Welcome p {
+        font-size: 3rem;
+    }
+
+    .Group-3 {
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    form {
+        max-width: 350px;
+        margin-left: 5rem;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 750px) {
+    html {
+        font-size: 50%;
+        margin-top: 15rem;
+    }
+}
+
+@media (max-width: 450px) {
+    html {
+        font-size: 50%;
+        margin-top: 15rem;
+    }
+}

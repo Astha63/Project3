@@ -1,0 +1,310 @@
+/* Styles for screens wider than 1400px */
+.FormON {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1400px;
+    margin-left: 180px;
+    margin-right: auto;
+    margin-top: 90px;
+}
+
+.FormTitleON {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    color: #363636;
+    margin-bottom: 20px;
+    margin-left: 540px;
+}
+
+.FormContainerON {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    width: 100%;
+    margin-left: 220px;
+}
+
+.FormT,
+.formS {
+    padding: 10px;
+    width: 80%;
+}
+
+.B8 {
+    width: 640px;
+    margin-top: 40px;
+    margin-left: 340px;
+}
+
+
+
+.date-time-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4px;
+    width: 10%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.date-pickerr {
+    width: 190px;
+}
+
+.calendar-iconn {
+    margin-right: 14px;
+    margin-top: 4px;
+    font-size: 17px;
+}
+
+.FormInputON,
+.FormInputON1 {
+    outline: none;
+    padding: 0 5px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    height: 52px;
+    border: 1px solid #dcdcdc;
+    border-radius: 7px;
+    background-color: #fff;
+    color: #363636;
+}
+
+.FormInputON {
+    width: 150px;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+
+.FormInputON1 {
+    width: 78%;
+}
+
+.date-time-container2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4px;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-left: 10px;
+    margin-top: 0px;
+}
+
+.DateR {
+    margin-top: 1px;
+    width: 120px;
+    margin-right: 4px;
+}
+
+/* Styles for screens between 1400px and 876px */
+@media (max-width: 1400px) {
+    .FormON {
+        max-width: 100%;
+    }
+
+    .FormContainerON {
+        margin-left: 246px;
+        width: 100%;
+    }
+
+    .DateR {
+        margin-right: 10px;
+    }
+
+    .FormInputON1 {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .FormInputON {
+        width: 190px;
+        margin-left: 90px;
+    }
+
+    .date-picker-containerr {
+        width: 210px;
+    }
+
+    .date-pickerr {
+        width: 210px;
+        margin-bottom: 6px;
+    }
+
+    .calendar-iconn {
+        margin-right: 12px;
+        margin-top: 4px;
+    }
+
+    .BOP {
+        width: 100%;
+        margin-left: 0;
+        height: 55px;
+    }
+
+    .FormTitleON {
+        font-size: 2rem;
+        margin-left: 120px;
+        margin-left: 510px;
+    }
+
+    .DateR {
+        width: 120px;
+    }
+
+    .date-time-container2 {
+        width: 70%;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .FormT {
+        padding: 10px;
+        width: calc(80% - 10px);
+    }
+
+    .formS {
+        padding: 10px;
+        margin-left: 50px;
+        width: calc(80% - 10px);
+    }
+}
+
+/* Styles for screens between 876px and 768px */
+
+/* Styles for screens below 768px */
+@media (max-width: 995px) {
+    .FormON {
+        flex-direction: column;
+        margin-left: 120px;
+    }
+
+    .FormContainerON {
+        grid-template-columns: 1fr;
+    }
+
+    .FormInputON
+    {
+        width: 600px;
+        margin-left: 4px;
+        margin-top: 10px;
+    }
+          .FormInputON1{
+        width: 600px;
+            
+
+          }
+
+
+    .date-picker-containerr {
+        width: 590px;
+    }
+
+    .date-pickerr {
+        width: 600px;
+        margin-bottom: 6px;
+    }
+
+    .calendar-iconn {
+        margin-right: 2px;
+        margin-top: 4px;
+    }
+
+    .B8 {
+        width: 70%;
+        margin-left: 260px;
+    }
+
+    .FormTitleON {
+        font-size: 1.5rem;
+        margin-left: 0;
+    }
+
+    .date-time-container2 {
+        display: grid;
+        grid-template-columns: 1fr ;
+        gap: 5px;
+        width: 100%;
+        max-width: 200px;
+        margin: 0 auto;
+        margin-left: 0px;
+    }
+
+}
+.formS{
+    margin-left: -4px;
+}
+/* Styles for screens between 1400px and 867px */
+@media (max-width: 1400px) and (min-width: 995px) {
+    .FormContainerON {
+        margin-left: 100px;
+    }
+
+    .FormT,
+    .formS {
+        padding: 10px;
+        width: calc(70% - 10px);
+        margin-left: -50px;
+        /* Adjust this value to shift them to the left */
+    }
+
+    .B8 {
+        width: 70%;
+        margin-left: 120px;
+    }
+
+    .FormTitleON {
+        font-size: 2rem;
+        margin-left: 120px;
+        margin-left: 510px;
+    }
+}
+
+/* Styles for screens between 1005px and 876px */
+
+/* Styles for screens between 1389px and 901px */
+/* OperationList.css */
+.operation-list {
+    margin: 20px;
+    padding: 20px;
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.card-header {
+    background-color: #f0f0f0;
+    padding: 5px;
+}
+
+.card-body {
+    display: none;
+    /* Hide details by default */
+    padding: 10px;
+}
+
+.card.expanded .card-body {
+    display: block;
+    /* Show details when the card is expanded */
+}
+
+.card-footer {
+    text-align: right;
+    padding: 5px;
+}
+
+button {
+   
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}

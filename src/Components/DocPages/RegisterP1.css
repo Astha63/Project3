@@ -1,0 +1,455 @@
+
+.RP1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: #363636;
+    font-family: 'Inter', sans-serif;
+    width: 100%;
+    height: 100vh;
+    
+}
+
+.Rectangle1 {
+    display: flex;
+    flex-direction: row;
+    background-color: #f2e7d5;
+    border-radius: 31px;
+    height: 288px;
+    position: fixed;
+    width: 288px;
+    left: 1046px;
+    top: 636px;
+    bottom: -150px;
+    transform: rotate(72.08deg);
+}
+
+.Rectangle2 {
+    display: flex;
+    flex-direction: row;
+    background-color: #f2e7d5;
+    border-radius: 31px;
+    height: 288px;
+    position: fixed;
+    width: 288px;
+    left: -72.94px;
+    top: 297px;
+    transform: rotate(24.41deg);
+   
+}
+
+.Rectangle3 {
+    display: flex;
+    flex-direction: row;
+    background-color: #f2e7d5;
+    border-radius: 31px;
+    height: 288px;
+    position: fixed;
+    width: 288px;
+    left: 437px;
+    top: -120px;
+    transform: rotate(20.85deg);
+}
+
+.DocT {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    margin-left: 220px;
+    height: 400px;
+    width: 480px;
+   
+
+
+}
+
+.Title {
+    display: flex;
+    flex-direction: row;
+    font-size: 44px;
+    font-weight: bold;
+    text-align: center;
+    color: #363636;
+
+
+}
+
+
+.RPage1 {
+    flex: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    height: 580px;
+    width: 560px;
+    margin-left: 230px;
+    z-index: 1;
+
+}
+
+
+.FormRP {
+    display: flex;
+    flex-direction: column;
+    width: 560px;
+    height: 580px;
+    padding-left: 10px;
+    margin-top: 10px;
+
+color: #363636;
+}
+
+.FormTitleRP {
+    font-size: 30px;
+    font-weight: bold;
+    color: #363636;
+    margin-bottom: 20px;
+}
+.HomeButton{
+    height: 42px;
+        left: 90px;
+        position: absolute;
+        top: 14px;
+        width: 36px;
+        color: #6d9886;
+        font-size: 21px;
+        
+}
+
+.FormInputRP {
+    outline: none;
+    padding: 0 5px;
+    width: 78%;
+    height: 52px;
+    border: 1px solid #dcdcdc;
+    border-radius: 7px;
+    background-color: #fff;
+    color: #363636;
+    margin-top: 8px;
+    margin-bottom: 8px;
+       
+
+}
+.date-pickerr {
+    width: 100;
+    padding: 8px;
+    border: 1px solid #e9e1e1;
+    border-radius: 4px;
+    font-size: 16px;
+    height: 52px;
+    margin-bottom: 10px;
+}
+    .date-pickerr2 {
+            width: 430px;
+            padding: 8px;
+            border: 1px solid #e9e1e1;
+            border-radius: 4px;
+            font-size: 16px;
+  
+            height: 52px;
+            margin-bottom: px;
+        }
+
+.PhoneN {
+    height: 52px;
+    margin-top: 6px;
+    margin-bottom: 10px;
+}
+.phone1{
+    height: 52px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.DateR{
+    height: 52px;
+    margin-top: 8px;
+}
+
+.B6 {
+    height: 52px;
+    margin-top: 10px;
+    background: #6d9886;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    margin-bottom: 7px;
+    width: 78%;
+}
+
+.B6:hover {
+    background-color: green;
+}
+
+
+.BackButton {
+    position: absolute;
+        top: 6px;
+        left: 2px;
+        margin: 20px;
+      
+        display: flex;
+        align-items: center;
+        color:  #6d9886;
+       
+        text-decoration: none
+}
+
+.BackButton:hover {
+    color:green;
+}
+
+.BackButton svg {
+    margin-right: 8px;
+}
+.BackIcon {
+    color:#6d9886;
+    
+}
+
+
+
+
+.location-fields-container {
+  width: 422px; 
+  margin-left: -1px;
+  margin-bottom: 10px; 
+}
+
+.location-field1 {
+  width: 435px;
+
+}
+.location-field2 {
+    width: 210px;
+    
+    margin-right: 10px;
+}
+
+.input-fields-container {
+  width: 100%; 
+  display: flex;
+ margin-right: 5px;
+  
+}
+
+.In1,
+.In2 {
+  width: 38%; 
+  padding: 10px;
+  border: 1px solid #dcdcdc;
+  border-radius: 7px;
+  margin-bottom: 10px;
+  color: #363636;
+  margin-right: 14px;
+}
+
+
+
+.location-field1 select ,.location-field2 select{
+    outline: none;
+    padding: 0 5px;
+    width: 100%;
+    height: 45px;
+    border: 1px solid #dcdcdc;
+    border-radius: 7px;
+
+    margin-bottom: 10px;
+}
+
+
+.date-time-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4px;
+    width: 300px;
+  
+}
+ .custom-time-picker {
+    
+   width:120px;
+    padding: 8px;
+    border: 1px solid #e9e1e1;
+    border-radius: 4px;
+    margin-left: 120px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+   counter-reset:#e9e1e1; 
+}
+  	.tp_inputWrapper {
+    	    border: 1px solid #e9e1e1;
+    	    border-radius: 8px;
+    	    display: flex;
+    	    align-items: stretch;
+    	    width: max-content;
+    	    height: max-content;
+    	    padding: 0 8px;
+          
+    	}
+
+                    	.tp_icon path {
+                    	    transition: 0.3s ease;
+                    	    fill: #b9b7b7;
+                    	}
+
+                        	
+.tp_icon:hover path{
+    fill: #363636;
+}
+input.tp_inputBox {
+    margin-left: -8px;
+    font-size: 15px;
+}
+
+
+.calendar-iconn {
+    position: absolute;
+    top: 40%;
+    right: 10px;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: #999;
+    cursor: pointer;
+}
+
+    	.tp_mainWrapper {
+    	    position: relative;
+    	    display: flex;
+    	    height: max-content;
+    	    z-index: 2;
+            margin-left: 15px;
+    	}
+
+.selected-option {
+    color: black;
+}
+
+.placeholder {
+    color: rgb(160, 158, 158);
+    
+}
+
+
+.react-dropdown-select-placeholder {
+    color: #999;
+  
+}
+
+.react-dropdown-select-value {
+    color: black;
+   
+}
+
+ 
+
+.CountryDropdown select {
+    color: black;
+}
+
+.CountryDropdown select option::placeholder {
+    color: #999;
+}
+@media (min-width: 1024px) and (max-width: 1232px) {
+    .DocT {
+        width: 390px;
+        height: 320px;
+       
+    }
+
+}
+@media (min-width: 768px) and  (max-width: 1023px) {
+    .RP1 {
+        flex-direction: column;
+        align-items: center;
+   
+    }
+    .DocT{
+       
+        width: 400px;
+    }
+    .location-field1{
+        width: 78%;
+    }
+   .location-field2{
+    width: 38%;
+   }
+   .date-pickerr2{
+    width: 336px;
+    }
+    .calendar-iconn{
+    margin-right: 100px;
+    margin-top: 4px;
+        }
+
+    .RPage1{
+        flex: row;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+         margin-right: 60px;
+        margin-left: 120px;
+            height: 360px;
+            width: 360px;
+            
+    }
+   
+.FormRP{
+    margin-left: 120px;
+
+
+}
+    .Rectangle1,
+    .Rectangle2,
+    .Rectangle3 {
+        display: none;
+        z-index: 1;
+
+    }
+
+    .DocT {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .Title {
+        font-size: 36px;
+
+    }
+  
+}
+
+
+@media (max-width: 767px) {
+    .RP1 {
+        margin-left: 0px;
+     
+    }
+        .RPage1 {
+            margin-left: 0;
+            height: 240px;
+            width: 240px;
+        }
+                      
+    .DocT {
+        width: 100%;
+
+    }
+
+    .Title {
+        font-size: 24px;
+    }
+        .date-pickerr2 {
+            width: 338px;
+        }
+                .calendar-iconn {
+                    margin-right: 10
+                    
+                    0px;
+                    margin-top: 4px;
+                }
+}

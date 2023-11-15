@@ -1,0 +1,158 @@
+.Otp{
+        display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Inter', sans-serif;
+            width: 100%;
+            height: 100vh;
+            background-color: white;
+            color: white;
+
+}
+
+.FormContainer4 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: #363636;
+    font-family: 'Inter', sans-serif;
+    width: 600;
+    height: 460;
+    margin-top: 90px;
+
+}
+  .Form4 {
+      display: flex;
+      flex-direction: column;
+      width: 600px;
+      height: 460px;
+      padding-left: 10px;
+      z-index: 1;
+      margin-left: 45px;
+
+  }
+
+
+  .FormTitle4 {
+      font-size: 40px;
+      font-weight: bold;
+      color: #363636;
+      margin-bottom: 4px;
+      font-style: Ariel;
+    margin-left: 45px;
+  }
+
+.Description2 {
+    margin-top: 6px;
+    margin-left: -7px;
+    text-align: left;
+    color: #929292;
+    margin-left: 7px;
+    width: 400px;
+    height: 55px;
+    margin-left: 45px;
+}
+  .FormInput4 {
+      margin-top: 60px;
+      outline: none;
+      padding: 0 5px;
+      width: 80%;
+      height: 50px;
+      border: 1px solid white;
+      border-radius: 7px;
+      color: #363636;
+      margin-bottom: 15px;
+
+  }
+.FormButton4 {
+    margin-top: 20px;
+    width: 100%;
+    height: 45px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-bottom: 8px;
+}
+
+.B3 {
+    margin-top: 30px;
+    background: #6d9886;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    margin-bottom: 7px;
+    width: 90%;
+    margin-left: 60px;
+}
+
+.B3:hover {
+    background-color: green;
+}
+
+
+.otp-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    color: white;
+}
+
+.otp-input {
+    width: 55px;
+    height: 50px;
+text-align: center;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-left: 35px;
+    margin-top: 60px;
+    color: #363636;
+
+}
+.otp-input:focus {
+    border-color: #007bff;
+
+}
+
+/* App.css */
+.app-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background-color:white ;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.SignUpPrompt4 {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 15px;
+    color: #929292;
+    margin-right: -60px;
+
+
+}
+
+.SignUpPrompt4 span {
+    color: #6d9886;
+    font-family: 'Inter', sans-serif;
+}
+
+.react-tel-input {
+    .form-control {
+        /* ... other styles ... */
+        padding-left: 10px;
+        /* Adjust the value as needed */
+        /* ... other styles ... */
+    }
+
+  
+}

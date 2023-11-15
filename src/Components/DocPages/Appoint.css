@@ -1,0 +1,386 @@
+/* Styles for the table container */
+.table-container {
+    max-height: 400px;
+    /* Set a maximum height for the container */
+    overflow: hidden;
+    position: relative;
+    z-index: -1;
+    top:200px;
+}
+
+/* Styles for the table scroll container */
+.table-scroll-container {
+    overflow-y: auto;
+    /* Enable vertical scroll */
+    height: 100%;
+    /* Fill its parent container */
+    padding-right: 17px;
+}
+table {
+    width: 70%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    margin-left: 350px;
+    z-index: 1;
+    table-layout: fixed;
+    /* Fix table layout to enable fixed column widths */
+}
+
+/* Styles for the table header */
+.table-header {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    /* Ensure header is above the table body */
+}
+
+
+
+.clear-search-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: #888;
+}
+
+/* Add styling for the dropdown suggestions */
+.dropdown {
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    max-height: 100px;
+
+    overflow-y: auto;
+  
+    z-index: 1;
+}
+
+.dropdown-item {
+    padding: 8px;
+    cursor: pointer;
+}
+
+/* Add any other styling as needed */
+th {
+    border: none;
+    background-color: #85a196;
+    padding: 8px;
+    text-align: left;
+    color: white;
+    position:sticky;
+}
+
+td {
+    border-top: 4px solid white;
+    border-bottom: 4px solid white;
+    background-color: #cddbd5;
+    padding: 8px;
+    text-align: left;
+}
+
+
+
+.button-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.button-container button {
+    margin: 5px;
+    padding: 5px 10px;
+    border: none;
+    background-color: #6d9886;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    height: 55px;
+    width: 110px;
+
+    text-align: center;
+}
+.popup-content button:hover {
+    background-color: #6d9886;
+}
+
+
+.navbar-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+   margin-top: 50px;
+   margin-right: 100px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+    
+}
+
+.navbar .icon-container {
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.navbar .icon-container .search-icon,
+.navbar .icon-container .sort-button {
+    color: #6d9886;
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+.navbar .icon-container .search-icon:hover,
+.navbar .icon-container .sort-button:hover {
+    color: #3d763d;
+}
+/* Updated CSS for the cross mark (clear button) */
+.search-container {
+    position: relative;
+    top: -29px;
+    margin-left: 109px;
+    font-size: 15px;
+}
+
+.search-container input[type="text"] {
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 2px 8px #00000040;
+    height: 45px;
+    width: 200px;
+    margin-left: 10px;
+    padding-right: 30px;
+    font-size: 15px;
+   
+}
+
+.clear-search-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+   color: #6d9886;
+  font-size: 17px;
+    padding: 0;
+    z-index: 1;
+    margin-left: 6px;
+   
+}
+
+.clear-search-button:hover {
+    color: black;
+    
+}
+
+.search-container .dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    max-height: 150px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    border-top: none;
+    border-radius: 0 0 4px 4px;
+    z-index: 1;
+    background-color: #fff;
+    margin-left: 10px;
+    padding-right: 30px;
+    
+}
+.search-container .dropdown-item {
+    padding: 10px;
+    cursor: pointer;
+
+}
+
+.search-container .dropdown-item:hover {
+    background-color: #f0f0f0;
+}
+
+
+.filter-icon {
+    cursor: pointer;
+    margin-right: 0px;
+    color:#6d9886;
+}
+
+.filter-options {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    position: absolute;
+    top: 50px;
+    left:10px;
+    z-index: -1;
+}
+
+.filter-options input {
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.filter-options button {
+    padding: 5px 10px;
+    background-color: #6d9886;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.filter-options button:hover {
+    background-color: #6d9886;
+}
+
+.button-container {
+    max-height: 400px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.popup-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #000;
+}
+/* CSS for the close button */
+.button-container {
+    text-align: right;
+    margin-top: 10px;
+}
+
+.popup-content button {
+    padding: 5px 10px;
+    background: #6d9886;
+    /* Blue color, you can change it */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+/* Additional styling for the heading and details */
+.popup-content h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.popup-content p {
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+/* Ensure the popup is hidden by default */
+.popup {
+    display: none;
+}
+
+/* Show the popup when it's active */
+.popup.active {
+    display: flex;
+}
+
+
+
+
+
+.table-container {
+    max-height: 400px;
+    overflow: hidden;
+   
+}
+
+.table-scroll-container {
+    width: 100%;
+    max-height: 400px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    scrollbar-width: thick;
+}
+
+.table-body {
+
+    width: 100%;
+    max-height: 100%;
+   
+}
+
+.table-header {
+    background-color: #f2f2f2;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+}
+
+/* Style for table rows */
+.table-body tr {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.3rem;
+    width: 300%;
+    
+}
+
+.table-body td {
+    flex: 1;
+    border-bottom: 1px solid #ddd;
+     width: 100%;
+}
+
+
+
+.table-scroll-container::-webkit-scrollbar {
+    width: 18px;
+    border-radius: 15px;
+  
+}
+
+.table-scroll-container::-webkit-scrollbar-thumb {
+    background: #6d9886;
+
+    /* Thumb color */
+    border-radius: 15px;
+    /* Rounded corners for thumb */
+}
+
+.table-scroll-container::-webkit-scrollbar-thumb:hover {
+    background: #999;
+    /* Thumb color on hover */
+}
+
+.table-scroll-container::-webkit-scrollbar-track {
+    background: #f2f2f2;
+  
+}

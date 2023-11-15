@@ -1,0 +1,493 @@
+.SignIn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    color: white;
+}
+
+.Rectangle1,
+.Rectangle2,
+.Rectangle3 {
+    display: flex;
+    flex-direction: row;
+    background-color: #f2e7d5;
+    border-radius: 31px;
+    height: 250px;
+    position: fixed;
+    transform: rotate(72.08deg);
+}
+
+.Rectangle1 {
+    width: 250px;
+    left: 10px;
+    top: 20px;
+}
+
+.Rectangle2 {
+    width: 250px;
+    left: 10px;
+    top: 290px;
+}
+
+.Rectangle3 {
+    width: 250px;
+    left: 10px;
+    top: 560px;
+}
+
+.TitleContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    height: 30%;
+    width: 40%;
+ 
+}
+
+.Title {
+    display: flex;
+    flex-direction: row;
+    font-size: 38px;
+    font-weight: bold;
+    text-align: center;
+    color: #363636;
+    margin-right: 10%;
+    margin-top: 10%;
+    z-index: 1;
+}
+.FormContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    height: 440px;
+    width: 600px;
+    margin-left: 120px;
+    background-color: #fff;
+}
+/* Common styles for the form elements */
+.Form {
+    display: flex;
+    flex-direction: row;
+    height: 440px;
+    width: 600px;
+    z-index: 1;
+}
+
+.FormTitle {
+    font-size: 55px;
+    font-weight: bold;
+    color: #363636;
+}
+
+.FormInput {
+    outline: none;
+    padding: 0 5px;
+    width: 100%;
+    height: 59px;
+    border: 1px solid #dcdcdc;
+    border-radius: 7px;
+    color: #363636;
+    margin-bottom: 10px;
+}
+
+.FormFooter {
+    margin-top: 9px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #363636;
+    margin-bottom: 8px;
+}
+
+.RememberMe {
+    margin-top: -10px;
+    display: flex;
+    align-items: center;
+    margin-left: 6px;
+}
+
+.RememberMe input[type='checkbox'] {
+    margin-right: 8px;
+}
+
+.ForgotPassword {
+    margin-top: -10px;
+    color: #6d9886;
+    font-size: 14px;
+    margin-right: 120px;
+}
+
+.FormButton {
+    margin-top: 10px;
+    width: 81%;
+    height: 42px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-bottom: 8px;
+}
+
+.SignInButton {
+    margin-top: 8px;
+    background: #6d9886;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 8px;
+}
+
+.SignInButton:hover {
+    background-color: green;
+}
+
+.google-login-button {
+    background-color: #fff;
+    color: #000;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    border: 1px solid #dcdcdc;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-weight: bold;
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+.google-login-button img {
+    margin-left: 19px;
+}
+
+.google-login-button:hover {
+    background-color: #f2f2f2;
+}
+
+.Text {
+    margin-right: 50px;
+    color: #363636;
+}
+
+.SignUpPrompt {
+    text-align: center;
+    font-size: 14px;
+    color: #929292;
+    margin-right: 50px;
+}
+
+.SignUpPrompt span {
+    color: #6d9886;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Add styles for the user's initial */
+.UserInitial {
+    background-color: #3498db;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+/* Styles for the dropdown container */
+.Dropdown {
+    position: relative;
+}
+
+/* Styles for the dropdown button */
+.DropdownButton {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+/* Styles for the dropdown content */
+.DropdownContent {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    z-index: 1;
+    right: 0;
+}
+
+/* Show the dropdown content when the button is clicked */
+.Dropdown:hover .DropdownContent {
+    display: block;
+}
+
+/* Styles for dropdown content items (Log Out and Profile) */
+.DropdownContent button,
+.DropdownContent a {
+    color: #333;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+/* Change the background color of the items on hover */
+.DropdownContent button:hover,
+.DropdownContent a:hover {
+    background-color: #f2f2f2;
+}
+
+/* Add styles for the Log Out and Profile links */
+.DropdownContent a {
+    color: #333;
+    text-decoration: none;
+}
+
+.error-message {
+    background-color: #89928e;
+    color: white;
+    font-size: 15px;
+    font-weight: semi-bold;
+    padding: 10px;
+    border-radius: 7px;
+    margin-top: 9px;
+    width: 80%;
+}
+
+/* Styles for the dropdown items on mobile devices */
+@media (max-width: 768px) {
+    .DropdownContent {
+        right: 0;
+    }
+}
+
+/* Media Queries for Responsive Design */
+@media only screen and (max-width: 1200px) {
+    .SignIn {
+        flex-direction: row;
+    }
+
+    .Rectangle1,
+    .Rectangle2,
+    .Rectangle3 {
+        width: 250px;
+        height: 250px;
+    }
+
+    .FormContainer {
+        width: 600px;
+        margin-left: 200px;
+        height: 410px;
+    }
+
+    .FormInput {
+        height: 45px;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1124px) {
+    .SignIn {
+        flex-direction: row;
+    }
+
+    .TitleContainer {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 10%;
+    }
+.Title{
+    margin-right: -3%;
+}
+    .FormContainer {
+        margin-left: 40px;
+        width: 80%;
+        margin-left: 8%;
+        height: auto;
+    }
+
+    .Title {
+        align-self: center;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    .Rectangle1 {
+        left: 20px;
+    }
+
+    .SignIn {
+        flex-direction: row;
+    }
+
+    .TitleContainer {
+        margin-left: 10%;
+        /* Adjust the margin to your preference */
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Title {
+        align-self: center;
+    }
+
+    .FormContainer {
+        margin-left: 30px;
+        width: 60%;
+        margin-left: 4%;
+        height: auto;
+        margin-right: 40px;
+    }
+}
+
+/* Media query for viewport width 857px and below */
+@media (max-width: 857px) {
+    .SignIn {
+        flex-direction: column;
+
+    }
+
+    .TitleContainer {
+        order: 1;
+        flex-direction: row;
+        width: 30%;
+        height: 30%;
+        align-items: center;
+    }
+    .Title{
+        margin-top: -90px;
+        margin-right: -54%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .FormContainer {
+        order: 2;
+       
+    }
+}
+
+@media only screen and (max-width: 786px) {
+    .SignIn {
+            flex-direction: column;
+           
+        }
+    .TitleContainer {
+        order: 1;
+        flex-direction: row;
+        align-items: center;
+        height: auto;
+        width: auto;
+    }
+
+    .Title {
+        margin-right: -76%;
+        align-self: center;
+    }
+
+    .FormContainer {
+        order: 2;
+        width: 60%;
+        margin: 0 auto;
+        margin-right: 90px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .SignIn {
+        flex-direction: column;
+    }
+
+    .TitleContainer {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 10%;
+        order: 1;
+    }
+
+    .Title {
+        align-self: center;
+        margin-right: -75%;
+    }
+
+    .FormContainer {
+        order: 2;
+        width: 90%;
+        margin-left: 11%;
+        height: auto;
+
+
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .SignIn {
+        flex-direction: column;
+    }
+
+
+    .Rectangle1,
+    .Rectangle2,
+    .Rectangle3 {
+        width: 250px;
+        height: 250px;
+    }
+
+    .TitleContainer {
+        flex-direction: column;
+        align-items: center;
+        margin-right: 220px;
+    }
+
+    .Title {
+        align-self: center;
+      margin-right: -54%;
+    }
+
+    .FormContainer {
+        width: 90%;
+        margin-left: 11%;
+        height: auto;
+    }
+
+    .Form {
+        height: auto;
+        width: 60%;
+    }
+
+    .Title {
+        margin-left: 0;
+    }
+
+    .Text {
+        margin-right: 0;
+    }
+
+    .ForgotPassword {
+        margin-right: 100px;
+    }
+
+    .SignUpPrompt {
+        margin-right: 45px;
+    }
+}
+
+@media only screen and (max-width: 594px) {
+    .Title{
+        margin-right: -90%;
+    }
+}
